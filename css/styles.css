@@ -136,6 +136,11 @@ button {
   color: #404bbf;
 }
 
+.header-logo:hover,
+.header-logo:focus {
+  color: #404bbf;
+}
+
 .button:hover,
 .button:focus {
   background-color: #404bbf;
