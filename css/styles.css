@@ -1,4 +1,4 @@
-.link {
+.nav-link {
   text-decoration: none;
   font-weight: 500;
   line-height: 1.5;
@@ -15,6 +15,7 @@
 }
 
 .adress-link {
+  text-decoration: none;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
@@ -30,7 +31,7 @@ body {
   background-color: #fff;
 }
 
-button {
+.order {
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -43,14 +44,6 @@ button {
 
 .sections {
   background-color: #2e2f42;
-}
-
-.about-us-list {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #434455;
 }
 
 .about-us-text {
@@ -72,12 +65,11 @@ button {
 }
 
 .section-list {
-  font-weight: 500;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
-  text-transform: capitalize;
   color: #2e2f42;
 }
 
@@ -109,13 +101,12 @@ button {
 .solutions {
   color: #fff;
   background-color: #2e2f42;
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  text-transform: uppercase;
 }
 
 .header-logo {
@@ -125,7 +116,6 @@ button {
   font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
 }
 .logo {
   color: #2e2f42;
@@ -136,13 +126,13 @@ button {
   color: #404bbf;
 }
 
-.link:hover,
-.link:focus {
+.nav-link:hover,
+.nav-link:focus {
   color: #404bbf;
 }
 
-.button:hover,
-.button:focus {
+.order:hover,
+.order:focus {
   background-color: #404bbf;
 }
 
@@ -156,7 +146,6 @@ button {
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
   color: #4d5ae5;
 }
 
