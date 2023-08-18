@@ -131,14 +131,14 @@ button {
   color: #2e2f42;
 }
 
-.link:hover,
-.link:focus {
+.adress-link:hover,
+.adress-link:focus {
   color: #404bbf;
 }
 
 .button:hover,
 .button:focus {
-  color: #404bbf;
+  background-color: #404bbf;
 }
 
 .footer {
